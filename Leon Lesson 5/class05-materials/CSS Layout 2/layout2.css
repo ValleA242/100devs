@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    
+}
+
+body {
+    margin: 0;
+}
+
+header,footer {
+    height: 150px;
+    clear: both;
+}
+
+.side2Side {
+    height: 200px;
+    width: 100%;
+}
+
+.leftBox {
+    float: left;
+    height: 300px;
+    width: 33%;
+}
+
+.rightBox {
+    float: left;
+    height: 300px;
+    width: 67%;
+}
+

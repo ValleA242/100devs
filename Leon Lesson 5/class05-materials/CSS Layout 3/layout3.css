@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid lightgray;
+}
+
+header, footer {
+    height: 150px;
+    clear: both;
+}
+
+.boxOneThreeAndFour {
+    width: 20%;
+    height: 600px;
+    float: left;
+}
+
+.bigBox {
+    width: 40%;
+    height: 600px;
+    float: left;
+}

@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header,footer {
+    height: 100px;
+    border: 1px solid black;
+    clear: both;
+}
+
+.box-1 {
+    float: left;
+    width: 33.333%;
+    border: 1px solid black;
+    height: 400px;
+}
+

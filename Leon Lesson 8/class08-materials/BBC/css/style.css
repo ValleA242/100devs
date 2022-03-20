@@ -1,0 +1,342 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+  font-size: 62.5%
+} 
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    letter-spacing: .5px;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/*******************************************/
+/* NAVIGATION BAR */
+/*******************************************/
+
+
+nav {
+  height: 4rem;
+  background-color: black;
+  margin-top: -.8%;
+  font-family: Helvetica, arial, sans-serif
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  list-style: none;  
+  margin-left: -5%;
+}
+
+.bbc-img {
+  padding-top: .25rem;
+}
+
+.sign-in {
+  margin-left: -1%;
+  padding-right: 8rem;
+}
+
+li {
+  float: left;
+  font-size: 1.3rem;
+  height: 4rem;
+  padding: .2rem 2.5rem;
+  border-right: 1px solid lightgray;
+  font-weight: bolder;
+}
+
+.border-comp {
+  padding-top: 1.25rem;
+}
+
+h1, h2, h3 {
+  font-family: Helvetica, arial, sans-serif;
+}
+
+input#search {
+  background-image: url(../images/search-b.png);
+  background-repeat: no-repeat;
+  background-size: 2rem;
+  background-position: right 0% bottom 4px;
+}
+
+#search {
+  height: 3rem;
+  width: 12%;
+  margin: .3rem .5rem;
+  font-weight: bold;
+  font-size: larger;
+  color: black;
+}
+
+
+
+
+
+
+/*******************************************/
+/* TOP SECTION */
+/*******************************************/
+
+.bbc-welcome {
+  float: left;
+  margin-left: .5%;
+  font-size: 2rem;
+  font-weight:bold;
+  color: #565656;
+}
+
+.top-section-header {
+  display: block;
+  clear: both;
+}
+
+
+.timestamp {
+  float: right;
+  margin-right: .5%;
+  font-size: 2rem;
+  font-weight: normal;
+  color: gray;
+  margin-right: .5%;
+}
+
+.left-container {
+  margin-left: .5%;
+  margin-bottom: 4%;
+  width: 50%;
+  height: 35rem;
+  float: left;
+  clear: both;
+  background-image: url(../images/israel-uae.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: normal;
+  margin-top: 36%;
+  margin-left: 3%;
+}
+
+.main-subheading {
+  font-family: helvetica, sans-serif;
+  font-size: 1.6rem;
+  color:#eaeaea;
+  margin-left: 3%;
+  margin-top: -1rem;
+}
+
+.right-container {
+  width: 48%;
+  height: 30rem;
+  float: right;
+  margin: 0;
+}
+
+.quad-box-sizing {
+  width: 48%;
+  height: 49%;
+}
+
+.quad-headings {
+  font-size: 1.8rem;
+  font-weight: normal;
+  margin-left: 3%;
+}
+
+.quad-inside-margins {
+  margin-top: 32%;
+}
+
+.quad-inside-margins-special {
+  margin-top: 37%;
+}
+
+.upper-left {
+  background-image: url(../images/america-canada.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  float: left;
+  margin: 0 2% .5% 0;
+  height: 17.2rem;
+}
+
+.lower-left {
+  background-image: url(../images/productivity.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  float: left;
+  margin: .5% 2% 0 0;
+  height: 17.2rem;
+}
+
+.lower-right {
+  background-image: url(../images/victor\ jara.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  float: left;
+  margin: .5% 0 0 1%;
+  height: 17.2rem;
+}
+
+
+.upper-right {
+  background-image: url(../images/vaccine.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  float: left;
+  margin: 0 0 .5% 1%;
+  height: 17.2rem;
+}
+
+/*******************************************/
+/* BOTTOM CONATINER START */
+/*******************************************/
+
+.bottom-container {
+  width: 100%;
+  margin: 3% .5% 0 .5%;
+  clear: both;
+}
+
+.bot-left {
+  float: left;
+  width: 32%;
+  height: 15rem;
+  margin-right: 1%;
+}
+
+.bot-center {
+  float: left;
+  width: 32%;
+  height: 15rem;
+  margin: 0 .5%;
+} 
+
+/*******************************************/
+/* SMALL CATEGORY HEADINGS THROUGHOUT PAGE */
+/*******************************************/
+
+.heading-accent-large {
+  border-left: 3px solid red;
+  text-indent: 1rem;
+  font-size: 2rem;
+  height: 2.5rem;
+  width: fit-content;
+}
+
+.heading-accent-red {
+  border-left: 3px solid red;
+  text-indent: 1rem;
+  font-size: 1.25rem;
+  height: 1.5rem;
+  width: fit-content;
+  font-family: helvetica, sans-serif;
+  padding-left: .5rem;
+  margin-left: 3%;
+}
+
+.health {
+  color:#eaeaea;
+}
+
+.heading-accent-gray {
+  border-left: 3px solid gray;
+  text-indent: 1rem;
+  font-size: 1.25rem;
+  height: 1.5rem;
+  width: fit-content;
+  color:#eaeaea;
+  font-family: helvetica, sans-serif;
+  padding-left: .5rem;
+  margin-left: 3%;
+}
+
+.heading-accent-blue {
+  border-left: 3px solid lightskyblue;
+  text-indent: 2rem;
+  font-size: 1.25rem;
+  width: fit-content;
+  color:#eaeaea;
+  font-family: helvetica, sans-serif;
+  padding-left: .5rem;
+  margin-left: 3%;
+  height: 1.5rem;
+}
+
+/*******************************************/
+/* BOTTOM FORMATTING */
+/*******************************************/
+
+.bottom-headings {
+  font-size: 1.8rem;
+  color: black;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.bottom-snippets {
+  font-family: helvetica, sans-serif;
+  font-size: 1.4rem; 
+}
+
+.bottom-topics {
+  font-family: helvetica, sans-serif;
+  display: block;
+  margin-left: .5%;
+  margin-top: 4%;
+  padding-left: .2rem;
+  height: 1.25rem;
+}
+
+.bottom-images {
+  height: 20rem;
+  width: 100%;
+}
+
+.bot-right {
+  float: left;
+  width: 32%;
+  height: 15rem;
+  margin-left: 1%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
